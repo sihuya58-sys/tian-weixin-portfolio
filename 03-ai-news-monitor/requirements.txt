@@ -1,0 +1,8 @@
+# Python 3.14 兼容版本
+# 移除 feedparser（依赖已弃用的 cgi 模块）
+# 改用 Python 内置的 xml.etree.ElementTree + requests 组合
+
+google-generativeai==0.3.0
+requests==2.31.0
+python-dotenv==1.0.0
+
